@@ -9,7 +9,8 @@ function Home() {
   const [imageLoadCount, setImageLoadCount] = useState(0);
 
 
-  
+  console.log(1203867588888888888888888888111111111112333333331238888888888888)
+
   useEffect(() => {
     if (!localStorage.nick) {
       window.location.href = "/settings"
