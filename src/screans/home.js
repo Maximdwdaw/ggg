@@ -8,6 +8,8 @@ function Home() {
   const [vis, setvis] = useState(false);
   const [imageLoadCount, setImageLoadCount] = useState(0);
 
+
+  
   useEffect(() => {
     if (!localStorage.nick) {
       window.location.href = "/settings"
