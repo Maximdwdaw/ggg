@@ -11,6 +11,7 @@
     "cors": "^2.8.5",
     "firebase": "^10.3.0",
     "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
     "pako": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,11 +23,11 @@
     "zlib": "^1.0.5"
   },
   "scripts": {
-    "start":"react-scripts start ",
+    "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "d":"npm run build && nodemon server.js"
+    "d": "npm run build && node server.js"
   },
   "eslintConfig": {
     "extends": [
